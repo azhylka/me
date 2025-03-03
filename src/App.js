@@ -1,13 +1,14 @@
 import React from "react";
 import { HashRouter } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Publications from './pages/Publications';
+import AppRouter from './AppRouter';
 import Home from "./pages/Home";
 
 function App() {
     return (
-        <div>
-            <Navbar />
+        <div className="App">
             <Home />
+            <Publications />
         </div>
     );
 }
