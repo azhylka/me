@@ -11,16 +11,18 @@
 }
 
 .publication-item {
-  background-color: #333; /* Change to dark background */
-  border: 1px solid #555; /* Change to darker border */
+  background-color: rgba(51, 51, 51, 0.6); /* Change to semi-transparent dark background */
+  border: 1px solid rgba(85, 85, 85, 0.5); /* Change to semi-transparent darker border */
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 15px;
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  backdrop-filter: blur(5px); /* Add foggy effect */
 }
 
 .publication-item:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjust shadow for dark background */
+  transform: translateY(-5px); /* Add a slight lift effect */
 }
 
 .publication-title {
@@ -33,6 +35,12 @@
   font-size: 1em;
   margin: 0 0 10px;
   color: #ddd; /* Change to light gray for better contrast */
+}
+
+.publication-year {
+  font-size: 1em;
+  margin: 0 0 10px;
+  color: #aaa; /* Change to lighter gray for better contrast */
 }
 
 .publication-doi {

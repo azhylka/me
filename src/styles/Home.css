@@ -28,7 +28,7 @@
 
 .profile-photo {
   width: 150px;
-  height: 150px;
+  height: auto; /* Maintain aspect ratio */
   border-radius: 50%;
   object-fit: cover;
   margin-right: 20px; /* Add margin to the right */
@@ -48,15 +48,22 @@
 
 .home-bio {
   margin-bottom: 40px;
+  display: flex;
+  justify-content: center; /* Center the bio content */
 }
 
 .bio-content {
   display: flex;
   align-items: center;
+  max-width: 100%; /* Ensure the bio content takes full width */
 }
 
 .bio-text {
   max-width: 600px;
+  background-color: rgba(51, 51, 51, 0.4); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
 }
 
 .home-bio h2 {
@@ -68,6 +75,12 @@
 .home-bio p {
   font-size: 1.2em;
   color: #ddd; /* Change to light gray for better contrast */
+  line-height: 1.6; /* Improve readability */
+}
+
+.home-bio a {
+  color: #ffcc00; /* Mustard yellow */
+  text-decoration: underline; /* Underline text links */
 }
 
 .home-navigation h2 {
@@ -87,7 +100,7 @@
 
 .home-navigation a {
   font-size: 1.2em;
-  color: #ffcc00; /* Change to yellow for better contrast */
+  color: #ffcc00; /* Mustard yellow */
   text-decoration: none;
 }
 
