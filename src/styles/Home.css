@@ -26,11 +26,18 @@
   margin-bottom: 40px;
 }
 
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .profile-photo {
   width: 150px;
-  height: auto; /* Maintain aspect ratio */
+  height: 150px; /* Ensure the height is the same as the width */
   border-radius: 50%;
   object-fit: cover;
+  object-position: center; /* Center the image */
   margin-right: 20px; /* Add margin to the right */
   margin-bottom: 20px;
 }

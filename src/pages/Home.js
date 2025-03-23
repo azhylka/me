@@ -8,23 +8,25 @@ function Home() {
         <div className="home-container">
             <div className="background-image"></div>
             <header className="home-header">
-                <h1>Andrey Zhylka</h1>
-                <p>Postdoc at UMC Utrecht</p>
+                <div className="header-content">
+                    <img src={az} alt="Andrey Zhylka" className="profile-photo" />
+                    <div>
+                        <h1>Andrey Zhylka</h1>
+                        <p>Postdoc at UMC Utrecht</p>
+                    </div>
+                </div>
             </header>
             <section className="home-bio">
                 <div className="bio-content">
-                    <img src={az} alt="Andrey Zhylka" className="profile-photo" />
                     <div className="bio-text">
                         <h2>About Me</h2>
                         <p>
                             I am Andrey Zhylka, a postdoc at UMC Utrecht. 
-                            I received my PhD from Eindhoven University of Technology in 2023 for the work on fibre tractography for neurosurgery planning (<Link to="https://research.tue.nl/en/publications/diffusion-mri-tractography-branched-out">"Diffusion tractography branched out"</Link>).
+                            I received my PhD from Eindhoven University of Technology in 2023 for the work on fibre tractography for neurosurgery planning (<Link to="https://research.tue.nl/en/publications/diffusion-mri-tractography-branched-out">"Diffusion MRI tractography branched out"</Link>).
                             <br/>
                             My main interest is on application of Diffusion MRI, in particular tractography for neurosurgery planning and intraoperative navigation.
                             Other topics I am working on include exploring clinical applications of Diffusion MRI for biomarker discovery as well as analyzing Diffusion MRI data in combination with functional modalities (e.g., TMS).
-
                         </p>
-                        
                     </div>
                 </div>
             </section>
