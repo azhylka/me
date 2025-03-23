@@ -11,8 +11,8 @@
 }
 
 .publication-item {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
+  background-color: #333; /* Change to dark background */
+  border: 1px solid #555; /* Change to darker border */
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 15px;
@@ -20,24 +20,24 @@
 }
 
 .publication-item:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjust shadow for dark background */
 }
 
 .publication-title {
   font-size: 1.5em;
   margin: 0 0 10px;
-  color: #333;
+  color: #fff; /* Change to white for better contrast */
 }
 
 .publication-authors {
   font-size: 1em;
   margin: 0 0 10px;
-  color: #666;
+  color: #ddd; /* Change to light gray for better contrast */
 }
 
 .publication-doi {
   font-size: 1em;
-  color: #1a0dab;
+  color: #ffcc00; /* Change to yellow for better contrast */
   text-decoration: none;
 }
 

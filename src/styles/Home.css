@@ -1,0 +1,134 @@
+.home-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  min-height: 100vh; /* Ensure the container takes full height of the viewport */
+}
+
+.background-image {
+  position: fixed; /* Change to fixed to cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../styles/pics/butterfly_v2_1.svg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px; /* Add margin to the right */
+  margin-bottom: 20px;
+}
+
+.home-header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #fff; /* Change to white for better contrast */
+}
+
+.home-header p {
+  font-size: 1.2em;
+  color: #ddd; /* Change to light gray for better contrast */
+}
+
+.home-bio {
+  margin-bottom: 40px;
+}
+
+.bio-content {
+  display: flex;
+  align-items: center;
+}
+
+.bio-text {
+  max-width: 600px;
+}
+
+.home-bio h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #fff; /* Change to white for better contrast */
+}
+
+.home-bio p {
+  font-size: 1.2em;
+  color: #ddd; /* Change to light gray for better contrast */
+}
+
+.home-navigation h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #fff; /* Change to white for better contrast */
+}
+
+.home-navigation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-navigation li {
+  margin-bottom: 10px;
+}
+
+.home-navigation a {
+  font-size: 1.2em;
+  color: #ffcc00; /* Change to yellow for better contrast */
+  text-decoration: none;
+}
+
+.home-navigation a:hover {
+  text-decoration: underline;
+}
+
+.corner-image {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 5vh; /* Make it 5% of the screen height */
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .home-header h1 {
+    font-size: 2em;
+  }
+
+  .home-header p {
+    font-size: 1em;
+  }
+
+  .home-bio h2,
+  .home-navigation h2 {
+    font-size: 1.5em;
+  }
+
+  .home-bio p,
+  .home-navigation a {
+    font-size: 1em;
+  }
+
+  .bio-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-photo {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
