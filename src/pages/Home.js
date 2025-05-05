@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import '../styles/Home.css';
 import az from '../styles/pics/az.jpg';
+import scholarIcon from '../styles/icons/scholar.png';
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
                         <h1>Andrey Zhylka</h1>
                         <p>Postdoc at UMC Utrecht</p>
                         <p>a dot i dot zhylka at umcutrecht dot nl</p>
+                        
                     </div>
                 </div>
             </header>
@@ -35,7 +37,15 @@ function Home() {
                     </div>
                 </div>
             </section>
-        </div>
+            <section className="home-links">
+                <div className="social-icons">
+                            <a href="https://scholar.google.com/citations?user=gFtqTLIAAAAJ&hl" target="_blank" rel="noopener noreferrer">
+                                <img src={scholarIcon} alt="Google Scholar" className="icon" />
+                            </a>
+                            
+                        </div>
+            </section>
+       </div>
     );
 }
 

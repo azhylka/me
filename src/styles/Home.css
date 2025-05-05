@@ -53,6 +53,23 @@
   color: #ddd; /* Change to light gray for better contrast */
 }
 
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  justify-content: center; /* Center align the icons */
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2); /* Slight zoom effect on hover */
+}
+
 .home-bio {
   margin-bottom: 40px;
   display: flex;
@@ -121,6 +138,11 @@
   left: 0;
   height: 5vh; /* Make it 5% of the screen height */
   z-index: 1;
+}
+
+.home-links {
+  text-align: center; /* Center align the entire section */
+  margin-top: 20px;
 }
 
 @media (max-width: 600px) {
