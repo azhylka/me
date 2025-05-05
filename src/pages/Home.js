@@ -13,6 +13,7 @@ function Home() {
                     <div>
                         <h1>Andrey Zhylka</h1>
                         <p>Postdoc at UMC Utrecht</p>
+                        <p>a dot i dot zhylka at umcutrecht dot nl</p>
                     </div>
                 </div>
             </header>
@@ -24,8 +25,9 @@ function Home() {
                             I am Andrey Zhylka, a postdoc at UMC Utrecht. 
                             I received my PhD from Eindhoven University of Technology in 2023 for the work on fibre tractography for neurosurgery planning (<Link to="https://research.tue.nl/en/publications/diffusion-mri-tractography-branched-out">"Diffusion MRI tractography branched out"</Link>).
                             <br/>
-                            My main interest is on application of Diffusion MRI, in particular tractography for neurosurgery planning and intraoperative navigation.
+                            My main focus is on application of Diffusion MRI, in particular tractography for neurosurgery planning and intraoperative navigation.
                             Other topics I am working on include exploring clinical applications of Diffusion MRI for biomarker discovery as well as analyzing Diffusion MRI data in combination with functional modalities (e.g., TMS).
+                            If you are instersted in collaborating, feel free to send me a message.
                         </p>
                     </div>
                 </div>
