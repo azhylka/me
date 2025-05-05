@@ -27,7 +27,7 @@ function Home() {
                             <br/>
                             My main focus is on application of Diffusion MRI, in particular tractography for neurosurgery planning and intraoperative navigation.
                             Other topics I am working on include exploring clinical applications of Diffusion MRI for biomarker discovery as well as analyzing Diffusion MRI data in combination with functional modalities (e.g., TMS).
-                            If you are instersted in collaborating, feel free to send me a message.
+                            If you are instersted in collaborating, please, feel free to send me a message.
                         </p>
                     </div>
                 </div>
