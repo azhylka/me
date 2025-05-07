@@ -110,18 +110,21 @@ const Publications = () => {
 
   return (
     <div className="publications-container">
-      <ul className="publications-list">
-        {publications.map((pub, index) => (
-          <li key={index} className="publication-item">
-            <h2 className="publication-title">{pub.title}</h2>
-            <p className="publication-authors">{pub.authors}</p>
-            <p className="publication-year">{pub.year}</p>
-            <a href={pub.link} className="publication-doi" target="_blank" rel="noopener noreferrer">
-              View Publication
-            </a>
-          </li>
-        ))}
-      </ul>
+      <div className="background-image"></div>
+      <section className="publications-list-section">
+        <ul className="publications-list">
+          {publications.map((pub, index) => (
+            <li key={index} className="publication-item">
+              <h2 className="publication-title">{pub.title}</h2>
+              <p className="publication-authors">{pub.authors}</p>
+              <p className="publication-year">{pub.year}</p>
+              <a href={pub.link} className="publication-doi" target="_blank" rel="noopener noreferrer">
+                View Publication
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 };

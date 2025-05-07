@@ -1,8 +1,39 @@
 .publications-container {
+  position: relative;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../styles/pics/butterfly_v2_1.svg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px); /* Reduced blur effect */
+  z-index: -1;
+}
+
+.publications-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.publications-header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #fff;
+}
+
+.publications-list-section {
+  margin-bottom: 40px;
 }
 
 .publications-list {
@@ -11,41 +42,41 @@
 }
 
 .publication-item {
-  background-color: rgba(51, 51, 51, 0.6); /* Change to semi-transparent dark background */
-  border: 1px solid rgba(85, 85, 85, 0.5); /* Change to semi-transparent darker border */
+  background-color: rgba(51, 51, 51, 0.6);
+  border: 1px solid rgba(85, 85, 85, 0.5);
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 15px;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
-  backdrop-filter: blur(5px); /* Add foggy effect */
+  backdrop-filter: blur(5px);
 }
 
 .publication-item:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjust shadow for dark background */
-  transform: translateY(-5px); /* Add a slight lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
 }
 
 .publication-title {
   font-size: 1.5em;
   margin: 0 0 10px;
-  color: #fff; /* Change to white for better contrast */
+  color: #fff;
 }
 
 .publication-authors {
   font-size: 1em;
   margin: 0 0 10px;
-  color: #ddd; /* Change to light gray for better contrast */
+  color: #ddd;
 }
 
 .publication-year {
   font-size: 1em;
   margin: 0 0 10px;
-  color: #aaa; /* Change to lighter gray for better contrast */
+  color: #aaa;
 }
 
 .publication-doi {
   font-size: 1em;
-  color: #ffcc00; /* Change to yellow for better contrast */
+  color: #ffcc00;
   text-decoration: none;
 }
 
