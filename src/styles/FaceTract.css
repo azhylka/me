@@ -1,0 +1,115 @@
+.project-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../styles/pics/butterfly_v2_1.svg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.project-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.project-header h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #fff;
+}
+
+.project-header p {
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+.project-background,
+.project-plan,
+.project-milestones {
+  margin-bottom: 40px;
+}
+
+.project-background h2,
+.project-plan h2,
+.project-milestones h2,
+.project-preregistration h2 {
+  font-size: 1.4em; /* Slightly smaller than before */
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.project-background p,
+.project-plan p {
+  font-size: 1.2em;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+.milestones-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(51, 51, 51, 0.6);
+  color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.milestones-table th,
+.milestones-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.milestones-table th {
+  background-color: rgba(85, 85, 85, 0.8);
+  color: #fff;
+}
+
+.milestones-table td {
+  border-top: 1px solid #fff; /* White edges only inside */
+  border-left: 1px solid #fff; /* White edges only inside */
+}
+
+.milestones-table td:first-child {
+  border-left: none; /* Remove left border for the first column */
+}
+
+.milestones-table tr:first-child td {
+  border-top: none; /* Remove top border for the first row */
+}
+
+.project-preregistration {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.project-preregistration h2 {
+  font-size: 1.8em; /* Slightly smaller than before */
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.project-preregistration p {
+  font-size: 1.2em;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+iframe {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
