@@ -110,7 +110,6 @@ const Publications = () => {
 
   return (
     <div className="publications-container">
-      <h1>Publications</h1>
       <ul className="publications-list">
         {publications.map((pub, index) => (
           <li key={index} className="publication-item">
