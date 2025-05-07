@@ -13,9 +13,9 @@ function App() {
                 <div className="background-image"></div>
                 <nav>
                     <ul>
-                        <li><a href="#/">Home</a></li>
-                        <li><a href="#/publications">Publications</a></li>
-                        <li><a href="#/facetract">FaceTract</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/publications">Publications</a></li>
+                        <li><a href="/facetract">FaceTract</a></li>
                     </ul>
                 </nav>
                 <Routes>
