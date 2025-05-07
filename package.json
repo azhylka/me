@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Andrey Zhylka",
-  "homepage": "https://azhylka.github.io/",
+  "homepage": "https://azhylka.github.io/me",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
