@@ -53,7 +53,8 @@
 }
 
 .project-background p,
-.project-plan p {
+.project-plan p,
+.project-preregistration p {
   font-size: 1.2em;
   color: #ddd;
   line-height: 1.6;
@@ -112,4 +113,13 @@
 iframe {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  color: #ffcc00; /* Mustard yellow */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
